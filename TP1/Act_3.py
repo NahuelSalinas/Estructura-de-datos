@@ -11,6 +11,7 @@ else:
     print("Los alumnos cursan en el aula A-315.")
 
 # Descuento en la cuota
+print('\nDescuento en la cuota')
 turno = input("Ingrese el turno (Mañana/Tarde): ").lower()
 materias = int(input("Ingrese la cantidad de materias inscritas: "))
 cuota = float(input("Ingrese el valor de la cuota: "))
@@ -24,6 +25,7 @@ cuota_con_descuento = cuota - descuento
 print(f"El valor de la cuota con descuento es: ${cuota_con_descuento:.2f}")
 
 # Costo de estacionamiento 
+print('\nCOsto del Estacionamiento')
 transporte = input("¿Viene en auto, moto o bicicleta?: ").lower()
 
 if transporte in ["auto", "moto"]:
