@@ -1,3 +1,5 @@
+//Corregir para que se adapte a la consigna
+
 print('-----------------CADENA DE PARENTESIS-----------------')
 Cadena = input('Ingrese su cadena de (): ')
 
