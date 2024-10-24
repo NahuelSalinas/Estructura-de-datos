@@ -1,7 +1,6 @@
-//Corregir para que se adapte a la consigna
-
-print('-----------------CADENA DE PARENTESIS-----------------')
-Cadena = input('Ingrese su cadena de (): ')
+#Cadena de paréntesis
+Cadena1 = "()(())" #True
+Cadena2 = "())" #False
 
 def EsCadena(Cadena):
     trim = Cadena.replace("", "")
@@ -9,6 +8,7 @@ def EsCadena(Cadena):
     if resto != 0:
         print('Falso')
     else:
-        print('Facto')
+        print('Verdadero')
 
-print(EsCadena(Cadena))
+print(EsCadena(Cadena1))
+print(EsCadena(Cadena2))
